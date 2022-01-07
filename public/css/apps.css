@@ -1,0 +1,135 @@
+:root{
+    font-size: 12px;
+}
+.app{
+    height:100vh;
+    background-image: url("/icon/bg.jpg");
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+    
+}
+@media only screen and (max-width: 768px) {
+  .app {
+    height:100%
+  }
+}
+.text-grey{
+    color:rgb(194, 178, 178);
+}
+a{
+text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
+color:blueviolet;
+}
+
+select{
+    max-width: 200px;
+    background-color: white;
+    outline-style: none;
+    outline-width: 0;
+}
+select:hover{
+    background-color: white;
+    outline-style: none;
+    outline-width: 0;
+}
+.home img{
+    padding:5px;
+    height:120px;
+}
+@media only screen and (max-width: 600px) {
+    .home img{
+        height:100px;
+    }
+  }
+.iconcontainer img{
+    padding:1px;
+    height: 40px;
+    width:40px;
+}
+/* sumary table */
+.box1{
+    background-color: rgb(54,90,62);
+}
+.box2{
+    background-color: rgb(221,0,10);
+}
+.box3{
+    background-color: rgb(149,159,111)
+}
+.box4{
+    background-color: rgb(221,0,10);
+}
+
+/* selection criteria */
+
+.c-bg{
+    background-color:rgb(167,207,243) ;
+}
+.c-bg .header{
+    box-shadow: 0px  0px 5px  grey;
+    width:100%;
+    
+}
+.c-bg  a{
+    color:white;
+    background-color: #326DA6;
+    border-radius: 50%;
+   
+}
+.select{
+    border: 1px solid rgb(138,180,226);
+    background-color: rgb(167,207,243);
+    border-radius: 15px;
+    margin:2px;
+}
+
+.select>p{
+    border: 1px solid rgb(67, 113, 162);
+    border-radius: 15px;
+    box-shadow: 3px 3px grey;
+
+}
+.thead{
+    background-color: #326DA6;
+    position: sticky;
+    top:0;
+}
+.icon{
+    background-color: rgb(167,207,243);
+    border:1px rgb(63,112,171);
+    outline-width: 0;
+    outline-color: rgb(167,207,243);
+}
+.icon img{
+    height:38px;
+    width:38px;
+}
+.icon:hover, .icon:focus{
+    background-color: rgb(167,207,243);
+    color: rgb(63,112,171);
+    border:1px rgb(63,112,171);
+    outline-width: 0;
+    outline-color: rgb(167,207,243);
+}
+
+.table{
+    height:75vh;
+    overflow: scroll;
+}
+.footer_summary{
+    background-color: rgb(156, 196, 233);
+    position: sticky;
+    bottom:0;
+    font-weight: bold;
+}
+.footer_summary > td{
+    border: none;
+}
